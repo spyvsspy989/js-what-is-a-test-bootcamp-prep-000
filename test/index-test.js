@@ -17,8 +17,8 @@ expect(index.height).toBeLessThan(40)
   })
 
 describe("message, () => {
-    it("gives the name and height", () => {
-expect(index.message).toInclude(index.height)
+  it("gives the name and height", () => {
+  expect(index.message).toInclude(index.height)
     })
   })
 */
