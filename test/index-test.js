@@ -10,7 +10,7 @@ expect (index.name).toEqual('Susan')
   })
 
 describe("Height", () => {
-    it("is less than 40", 
+    it("is toBeLessThan 40, 
     () => {
 expect(index.height).toBeLessThan(40)
     })
